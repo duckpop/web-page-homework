@@ -76,17 +76,26 @@
     margin-bottom: 20px;
     margin-top: 25px;
     padding: 20px;
-    display: flex;
+    display: block;
     background: gray;
     border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
     .row{
         display: flex;
+        color: black;
+        font-size: 17px;
         .card{
             border-radius: 20px;
             background: #ffffff;
             margin-inline: 10px;
             padding: 10px;
             width: 25%;
+            justify-content: center;
+            h3{
+                height: 120px;
+            }
             h3,p{
                 padding-inline: 15px;
                 text-align: center;
@@ -138,6 +147,7 @@
         border-radius: 20px;
         background: #ffffff;
         margin-inline: 10px;
+        width: 100%;
         h2,p{
             margin: 15px;
             text-align: center;
